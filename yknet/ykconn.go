@@ -8,9 +8,9 @@ import (
 	"net"
 	"time"
 
-	cons "../ykconstant"
-	yklog "../yklog"
-	ykmsg "../ykmsg"
+	cons "github.com/cn0512/goKit/ykconstant"
+	yklog "github.com/cn0512/goKit/yklog"
+	ykmsg "github.com/cn0512/goKit/ykmsg"
 )
 
 type ykConnect struct {

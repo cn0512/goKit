@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 
-	c "../ykconstant"
 	git "github.com/assembla/cony"
+	c "github.com/cn0512/goKit/ykconstant"
 )
 
 type Consumer struct {

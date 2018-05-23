@@ -3,7 +3,7 @@ package ykmsg
 import (
 	"errors"
 
-	cons "../ykconstant"
+	cons "github.com/cn0512/goKit/ykconstant"
 )
 
 type MsgHeader struct {

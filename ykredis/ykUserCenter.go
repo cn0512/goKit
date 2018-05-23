@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net"
 
-	cons "../ykconstant"
+	cons "github.com/cn0512/goKit/ykconstant"
 	redigo "github.com/garyburd/redigo/redis"
 )
 

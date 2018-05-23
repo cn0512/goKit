@@ -6,7 +6,7 @@ import (
 	git "github.com/assembla/cony"
 	"github.com/streadway/amqp"
 
-	c "../ykconstant"
+	c "github.com/cn0512/goKit/ykconstant"
 )
 
 type Producer struct {

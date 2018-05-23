@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"net"
 
-	cons "../ykconstant"
-	"../yklog"
+	cons "github.com/cn0512/goKit/ykconstant"
+	"github.com/cn0512/goKit/yklog"
 
-	mq "../ykmq"
+	mq "github.com/cn0512/goKit/ykmq"
 
-	storge "../ykredis"
+	storge "github.com/cn0512/goKit/ykredis"
 )
 
 var ol storge.UserOL
