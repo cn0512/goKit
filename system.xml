@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 系统可选配件-->
+<system> 
+  <protocol> 
+    <!--gob/google/xml/json -->  
+    <use>gob</use> 
+  </protocol>  
+  <db> 
+    <!--sqlite/redis/mysql-->  
+    <use>sqlite</use> 
+  </db>  
+  <mq> 
+    <!--redis/rabbitmq/mqtt-->  
+    <use>rabbitmq</use> 
+  </mq> 
+</system>

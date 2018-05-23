@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<db> 
+  <sqlite> 
+    <file>yk_sqlite.db</file>  
+    <db>yk</db>  
+    <table_user>t_user</table_user> 
+  </sqlite>  
+  <mysql> 
+    <uri>nil</uri> 
+  </mysql>  
+  <redis> 
+    <uri>nil</uri> 
+  </redis> 
+</db>

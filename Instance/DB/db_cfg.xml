@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<db> 
+  <sqlite> 
+    <file>yk.db</file>  
+    <t_log>log</t_log>  
+    <t_user>user</t_user> 
+	<t_game>game</t_game> 
+	<t_gamecfg>game_cfg</t_gamecfg> 
+  </sqlite>  
+  <mysql> 
+    <uri>nil</uri> 
+  </mysql>  
+  <redis> 
+    <uri>nil</uri> 
+  </redis> 
+</db>
